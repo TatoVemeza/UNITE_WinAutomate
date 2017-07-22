@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  UNITE DEMO.py
+#  DEMO.py
 #  
-#  Copyright 2017 avelazcx <aldo.alfonsox.velasco.meza@intel.com>
+#  Copyright 2017  <aldo.alfonsox.velasco.meza@xxxx.com>
 #  
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -34,23 +34,23 @@ from pywinauto.controls.win32_controls import ButtonWrapper
 from pywinauto.application import Application
 
 class AdminPortalAutoTest(unittest.TestCase):
-    print("   <========================== UNITE TEST ===========================>")
+    print("   <========================== UNIT TEST ===========================>")
     print("   -------------------------------------------------------------------")
     print("""                                AVELAZCX
             """)
 
     def test_1_TCxxxx_Button_Close(self):
-        self.app = Application(backend="uia").start("C:\Program Files (x86)\Intel\Intel Unite\Client\Intel Unite.exe")
+        self.app = Application(backend="uia").start("C:\Program Files (x86)\xxxxxxxxx.exe")
         time.sleep(4)
-        self.inteu = self.app.window(title_re= 'Intel Unite®')
+        self.inteu = self.app.window(title_re= 'Ixxx Uxxx
 ##        self.pinentr = pyautogui.typewrite("782807")
 ##        time.sleep(5)
         self.button = self.inteu.window(auto_id='btnClose').click_input()
 
     def test_2_TCxxxx_Button_Close(self):
-        self.app = Application(backend="uia").start("C:\Program Files (x86)\Intel\Intel Unite\Client\Intel Unite.exe")
+        self.app = Application(backend="uia").start("C:\Program Files (x86)\xxxxxxxxx")
         time.sleep(4)
-##        self.inteu = self.app.window(title_re= 'Intel Unite®')
+##        self.inteu = self.app.window(title_re= 'Ixxxxx®')
 ##        self.pinentr = pyautogui.typewrite("782807")
 ##        time.sleep(5)
 ##        self.button = self.inteu.window(auto_id='btnClose').click_input()
